@@ -24,7 +24,8 @@ Provide optimization suggestions
 
 1. Clone the repository
    
-    '''text
+    '''bash
+   
        git clone https://github.com/yourusername/performance-analyzer.git
    
        cd performance-analyzer
