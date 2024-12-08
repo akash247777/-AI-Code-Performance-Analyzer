@@ -24,36 +24,35 @@ Provide optimization suggestions
 
 1. Clone the repository
    
-    '''bash
-   
        git clone https://github.com/yourusername/performance-analyzer.git
    
        cd performance-analyzer
-    '''
+    
 
-Create a virtual environment
+2. Create a virtual environment
 
-bashCopypython -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+           python -m venv venv
+   
+           source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-Install dependencies
+3. Install dependencies
 
-bashCopypip install -r requirements.txt
+            pip install -r requirements.txt
+4. Run the Streamlit app
 
-Run the Streamlit app
+        streamlit run performance_analyzer.py
+# Usage
 
-bashCopystreamlit run performance_analyzer.py
-Usage
+   1. Choose between pasting code or uploading a Python file
+   2. Click "Analyze Performance"
+   3. Review bottlenecks, memory usage, and execution profile
 
-Choose between pasting code or uploading a Python file
-Click "Analyze Performance"
-Review bottlenecks, memory usage, and execution profile
+# Limitations
 
-Limitations
+ * Experimental performance detection
+ * Primarily static code analysis
+ * May not catch all performance issues
 
-Experimental performance detection
-Primarily static code analysis
-May not catch all performance issues
+# Contributing 
 
-Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
