@@ -29,7 +29,6 @@ Provide optimization suggestions
 git clone https://github.com/yourusername/performance-analyzer.git
 cd performance-analyzer
 
-'''
 Create a virtual environment
 
 bashCopypython -m venv venv
