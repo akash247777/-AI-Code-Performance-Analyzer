@@ -26,6 +26,7 @@ Provide optimization suggestions
    
     '''text
        git clone https://github.com/yourusername/performance-analyzer.git
+   
        cd performance-analyzer
     '''
 
