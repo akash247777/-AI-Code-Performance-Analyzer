@@ -24,10 +24,10 @@ Provide optimization suggestions
 
 1. Clone the repository
    
-'''text
-git clone https://github.com/yourusername/performance-analyzer.git
-cd performance-analyzer
-'''
+    '''text
+       git clone https://github.com/yourusername/performance-analyzer.git
+       cd performance-analyzer
+    '''
 
 Create a virtual environment
 
